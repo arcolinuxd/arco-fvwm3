@@ -51,9 +51,7 @@ fvwm3-git
 arcolinux-fvwm3-git
 sxhkd
 picom
-lightdm
-arcolinux-lightdm-gtk-greeter
-arcolinux-lightdm-gtk-greeter-settings
+sddm
 arcolinux-wallpapers-git
 arcolinux-logout-git
 arcolinux-polybar-git
