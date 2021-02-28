@@ -79,7 +79,7 @@ tput setaf 5;echo "#############################################################
 echo "Enabling lightdm as display manager"
 echo "################################################################"
 echo;tput sgr0
-sudo systemctl enable lightdm.service -f
+sudo systemctl enable sddm.service -f
 
 tput setaf 7;echo "################################################################"
 echo "You now have a very minimal functional desktop"
