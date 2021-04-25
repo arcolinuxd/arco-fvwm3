@@ -47,11 +47,11 @@ echo "Installation of the core software"
 ###############################################################################
 
 list=(
+sddm
 fvwm3-git
 arcolinux-fvwm3-git
 sxhkd
 picom
-sddm
 arcolinux-wallpapers-git
 arcolinux-logout-git
 arcolinux-polybar-git
@@ -76,7 +76,7 @@ cp -Rf ~/.config ~/.config-backup-$(date +%Y.%m.%d-%H.%M.%S)
 cp -arf /etc/skel/. ~
 
 tput setaf 5;echo "################################################################"
-echo "Enabling lightdm as display manager"
+echo "Enabling sddm as display manager"
 echo "################################################################"
 echo;tput sgr0
 sudo systemctl enable sddm.service -f
