@@ -55,7 +55,7 @@ func_category() {
 func_category Arcolinux-Desktop
 
 list=(
-arcolinux-config-fvwm3-git
+arcolinux-config-all-desktops-git
 arcolinux-fvwm3-dconf-git
 polybar
 arcolinux-polybar-git
