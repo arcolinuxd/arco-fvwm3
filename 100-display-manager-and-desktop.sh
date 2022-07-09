@@ -53,7 +53,7 @@ arcolinux-fvwm3-git
 sxhkd
 picom
 arcolinux-wallpapers-git
-arcolinux-logout-git
+archlinux-logout-git
 arcolinux-polybar-git
 polybar
 )
